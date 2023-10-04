@@ -1,0 +1,46 @@
+body {
+
+}
+
+h1 {
+    color: #DD6600;
+}
+/* # alkuun jos käytät tyyliä id:hen */ 
+#guid1 {
+    color: #993300; 
+}
+h3 {
+    color: #391cde;
+}
+h2 {
+    color: #00bb55;
+}
+/* . alkuun jos taas käytät tyyliä luokkaan */
+.esimerkki {
+        padding-left: 40px;
+        color: #DD0000;
+}
+.esimerkki-box {
+    background-color: #99FFBB;
+    border: solid 1px #00bb55;
+    padding: 4px;
+}
+tr:nth-child(odd) {
+    background-color: #999;
+}
+table {
+    border-spacing: 0px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+table tr td {
+    margin: 0px;
+    border: solid 1px #888;
+}
+.merkattu {
+    color: #F00;
+}
+.jsharkkatyyli {
+    display: none;
+}
